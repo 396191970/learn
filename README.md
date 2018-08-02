@@ -13,16 +13,6 @@
 # 目录
 * [Spring ](https://github.com/396191970/learn/blob/master/README.md#Spring )
 	* [cloud](https://github.com/396191970/learn/blob/master/README.md#SpringCloud)
-# Java 基础
-## java基本语法
-* [Java中static、final、static final的区别](https://www.cnblogs.com/EasonJim/p/7841990.html)
-
-## 注解
-## 动态代理
-## lombok
-## 加解密
-## 泛型
-## 反射
 # Spring 
 
 ## SpringCloud 
@@ -41,6 +31,31 @@
 ## SpringBoot
 
 ## SpringSecurity
+# 中间件
+## Docker
+[Docker(一)：Docker入门教程 ](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247484517&idx=1&sn=fefa04a44381b98014d93325146db970&chksm=ebf6dc1adc81550c0f06b1d643f857ef9376304ff378301fd6c756827a471b45bb2b72e417ae&scene=21#wechat_redirect)
+
+## zk
+## rpc
+## redis
+## 消息队列
+## storm
+## kafka
+## ELK
+[ELK日志分析平台搭建全过程](https://www.cnblogs.com/onetwo/p/6059231.html)
+
+
+# Java 基础
+## java基本语法
+* [Java中static、final、static final的区别](https://www.cnblogs.com/EasonJim/p/7841990.html)
+
+## 注解
+## 动态代理
+## lombok
+## 加解密
+## 泛型
+## 反射
+
 # 工具
 ## git
 [解决Github访问超慢问题](http://m.xiazaiba.com/jiaocheng/7841.html)
@@ -50,17 +65,6 @@
 
 
 
-# 中间件
-## zk
-## rpc
-## redis
-## 消息队列
-## storm
-## kafka
-## ELK
-[ELK日志分析平台搭建全过程](https://www.cnblogs.com/onetwo/p/6059231.html)
-## Docker
-[Docker(一)：Docker入门教程 ](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247484517&idx=1&sn=fefa04a44381b98014d93325146db970&chksm=ebf6dc1adc81550c0f06b1d643f857ef9376304ff378301fd6c756827a471b45bb2b72e417ae&scene=21#wechat_redirect)
 
 
 
