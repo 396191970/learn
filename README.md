@@ -15,7 +15,7 @@
 	* [cloud](https://github.com/396191970/learn/blob/master/README.md#SpringCloud)
 # Spring 
 - [Spring是什么](https://blog.csdn.net/lp1052843207/article/details/51253071)
-
+- Spring能帮助我们简化应用程序开发，帮助我们创建和组装对象，为我们管理事务，简单的MVC框架，可以把Spring看作是一个超级粘合平台，能把很多技术整合在一起，形成一个整体，使系统结构更优良、性能更出众，从而加速我们程序开发
 
 ## SpringAop
 - [Spring之注解实现aop(面向切面编程) ](https://www.cnblogs.com/biehongli/p/6640406.html)
