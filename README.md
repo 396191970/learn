@@ -14,8 +14,9 @@
 * [Spring ](https://github.com/396191970/learn/blob/master/README.md#Spring )
 	* [cloud](https://github.com/396191970/learn/blob/master/README.md#SpringCloud)
 # Spring 
-- [Spring是什么](https://blog.csdn.net/lp1052843207/article/details/51253071)
 - Spring能帮助我们简化应用程序开发，帮助我们创建和组装对象，为我们管理事务，简单的MVC框架，可以把Spring看作是一个超级粘合平台，能把很多技术整合在一起，形成一个整体，使系统结构更优良、性能更出众，从而加速我们程序开发
+- [Spring是什么](https://blog.csdn.net/lp1052843207/article/details/51253071)
+
 
 ## SpringAop
 - [Spring之注解实现aop(面向切面编程) ](https://www.cnblogs.com/biehongli/p/6640406.html)
@@ -23,7 +24,8 @@
 
 
 ## SpringCloud 
-- [springcloud身世与作用](https://blog.csdn.net/zach_king/article/details/80137282)
+- Spring Cloud是一个集成了众多开源的框架，利用Spring Boot的开发便利性实现了服务治理、服务注册与发现、负载均衡、数据监控，REST API发布方式等，基本囊括了分布式框架所需要的所有功能。是一套易开放、易部署、易维护的分布式开发工具包
+[springcloud身世与作用](https://blog.csdn.net/zach_king/article/details/80137282)
 - [spring cloud 请求服务失败, 重试配置](https://blog.csdn.net/ACMer_AK/article/details/78865914)
 - [Feign的超时与重试设置（SpringCloud2.0）](https://blog.csdn.net/VitaminZH/article/details/80892395)
 - [Spring Cloud整合Thrift RPC(一) - 使用指南](https://juejin.im/post/5b2a6a316fb9a00e6a620d4f)
@@ -48,6 +50,7 @@
 
 
 ## SpringBoot
+- Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。
 - [springboot(一)：入门篇](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247483678&idx=1&sn=461d8e3453031337c7599758dceaf675&chksm=ebf6d961dc81507743a0c0b4a830457156536da61508b56d6689ed75ff8242422df3ce4b36e2&scene=21#wechat_redirect)
 - [springboot(二)：web综合开发](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247483679&idx=1&sn=ce9ac5cdceac9e3abc1c10545401f2d4&chksm=ebf6d960dc81507667f3c1fc2c6ed445050a37309ff690b34e091d836a15e86d64a33f61d4f0&scene=21#wechat_redirect)
 - [springboot(三)：Spring boot中Redis的使用](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247483680&idx=1&sn=f58f3c07c946350420a6b95115a89d1b&chksm=ebf6d95fdc815049f5e42db9313e060159cd0b5a7987f582a36fc5ac315a1ee6948c0866af5f&scene=21#wechat_redirect)
@@ -57,6 +60,9 @@
 ## SpringSecurity
 # 中间件
 ## Docker
+- Docker 属于 Linux 容器的一种封装
+有了 Docker，就不用担心环境问题。
+用户可以方便地创建和使用容器，把自己的应用放入容器。容器还可以进行版本管理、复制、分享、修改，就像管理普通的代码一样。
 - [Docker(一)：Docker入门教程 ](https://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247484517&idx=1&sn=fefa04a44381b98014d93325146db970&chksm=ebf6dc1adc81550c0f06b1d643f857ef9376304ff378301fd6c756827a471b45bb2b72e417ae&scene=21#wechat_redirect)
 - [Docker(二)：Dockerfile 使用介绍](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247484536&idx=1&sn=de9f934b0ad3c53a4e6e17b900333321&chksm=ebf6dc07dc8155114b2c069939f2ced49951d870bf335464f7e7b0e64d6b0aba4bfeaaf52a74&scene=21#wechat_redirect)
 - [Docker(三)：Dockerfile 命令详解](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247484546&idx=1&sn=a255d841dfe9dcbee8f1fe224cdbb3ac&chksm=ebf6dcfddc8155eb02309e46ca7deebf48c1f75ed5ce7b256f3ec3d273796d1d9bd28434dae4&scene=21#wechat_redirect)
