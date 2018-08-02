@@ -27,6 +27,16 @@
 - [spring cloud 请求服务失败, 重试配置](https://blog.csdn.net/ACMer_AK/article/details/78865914)
 - [Feign的超时与重试设置（SpringCloud2.0）](https://blog.csdn.net/VitaminZH/article/details/80892395)
 - [Spring Cloud整合Thrift RPC(一) - 使用指南](https://juejin.im/post/5b2a6a316fb9a00e6a620d4f)
+### Spring Cloud系列教程
+- [Spring Cloud（零）：微服务的那些事儿](https://windmt.com/2018/04/14/spring-cloud-0-microservices/)
+- [Spring Cloud（一）：服务治理技术概览【Finchley 版】](https://windmt.com/2018/04/14/spring-cloud-1-services-governance/)
+- [Spring Cloud（二）：服务注册与发现 Eureka【Finchley 版】](https://windmt.com/2018/04/15/spring-cloud-2-eureka/)
+- [Spring Cloud（三）：服务提供与调用 Eureka【Finchley 版】](https://windmt.com/2018/04/15/spring-cloud-3-service-producer-and-consumer/)
+- [Spring Cloud（四）：服务容错保护 Hystrix【Finchley 版】](https://windmt.com/2018/04/15/spring-cloud-4-hystrix/)
+- [Spring Cloud（五）：Hystrix 监控面板【Finchley 版】](https://windmt.com/2018/04/16/spring-cloud-5-hystrix-dashboard/)
+- [Spring Cloud（六）：Hystrix 监控数据聚合 Turbine【Finchley 版】](https://windmt.com/2018/04/17/spring-cloud-6-turbine/)
+- [Spring Cloud（七）：配置中心（Git 版与动态刷新）【Finchley 版】](https://windmt.com/2018/04/19/spring-cloud-7-config-sample/)
+- [Spring Cloud（八）：配置中心（服务化与高可用）【Finchley 版】](https://windmt.com/2018/04/19/spring-cloud-8-config-with-eureka/)
 
 
 ### Spring Cloud Sleuth
