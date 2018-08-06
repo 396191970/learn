@@ -74,6 +74,7 @@
 - [Docker(六)：Docker 三剑客之 Docker Swarm](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247484695&idx=1&sn=f9726c7e0b782090ac2334df56b7ec10&chksm=ebf6dd68dc81547e49ba12de8f3fd71518190c200f879aaec0fe172c405b54f1bfcaf3597123&scene=21#wechat_redirect)
 ## Kubernetes
 - [十分钟带你理解Kubernetes核心概念 ](http://dockone.io/article/932)
+- [三小时攻克 Kubernetes！](https://baijiahao.baidu.com/s?id=1602795888204860650&wfr=spider&for=pc&isFailFlag=1)
 ## zk
 ## rpc
 ## redis
