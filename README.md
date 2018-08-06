@@ -104,7 +104,9 @@
 - 编辑器 windows下面 Markdown10
 
 ## vpn
-- [vpn](https://www.xiariboke.com/seo/3689.html)
+- [vpn购买](https://www.xiariboke.com/seo/3689.html)
+- [搬瓦工+shadowsocks：搭建自己的VPN服务器](https://moshuqi.github.io/2017/07/20/自己搭建VPN服务器/)
+- [vpn服务器登入地址](https://bandwagonhost.com/)
 
 
 
