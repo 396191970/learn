@@ -107,6 +107,9 @@
 - [vpn购买](https://www.xiariboke.com/seo/3689.html)
 - [搬瓦工+shadowsocks：搭建自己的VPN服务器](https://moshuqi.github.io/2017/07/20/自己搭建VPN服务器/)
 - [vpn服务器登入地址](https://bandwagonhost.com/)
+- [Centos6安装shadowsocks及配置](https://blog.csdn.net/death05/article/details/78803951)
+- 苹果手机shadowsocks客户端 AppStor 搜ShadownBroken
+
 
 
 
