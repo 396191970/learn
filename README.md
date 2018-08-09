@@ -59,6 +59,8 @@
 - [springboot(四)：thymeleaf使用详解](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247483697&idx=1&sn=4f0f120c9d5f6a880f0a40fb0e8f60b5&chksm=ebf6d94edc8150589a97aad7bc47d0e302a381b6ad56feb0df338095e44a57cd0227a80b8e47&scene=21#wechat_redirect)
 - [springboot(五)：spring data jpa的使用](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247483697&idx=1&sn=4f0f120c9d5f6a880f0a40fb0e8f60b5&chksm=ebf6d94edc8150589a97aad7bc47d0e302a381b6ad56feb0df338095e44a57cd0227a80b8e47&scene=21#wechat_redirect)
 - [springboot(六)：如何优雅的使用mybatis](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247483704&idx=1&sn=b29019ff1d1ec032979935bd94cf544c&chksm=ebf6d947dc81505192aa69a966058dcccc9e7ff2dae5b93703f229f1939397ecad76a29cc6cf&scene=21#wechat_redirect)
+
+- [Spring Boot实战：Restful API的构建](https://www.cnblogs.com/paddix/p/8215245.html)
 ## SpringSecurity
 
 
