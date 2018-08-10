@@ -61,6 +61,7 @@
 - [springboot(六)：如何优雅的使用mybatis](http://mp.weixin.qq.com/s?__biz=MzI4NDY5Mjc1Mg==&mid=2247483704&idx=1&sn=b29019ff1d1ec032979935bd94cf544c&chksm=ebf6d947dc81505192aa69a966058dcccc9e7ff2dae5b93703f229f1939397ecad76a29cc6cf&scene=21#wechat_redirect)
 
 - [Spring Boot实战：Restful API的构建](https://www.cnblogs.com/paddix/p/8215245.html)
+- [Restful接口返回统一数据格式](https://blog.csdn.net/u012839498/article/details/81366421)
 ## SpringSecurity
 
 
