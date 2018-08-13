@@ -26,11 +26,12 @@
 
 
 ## SpringCloud 
+### 背景
 - Spring Cloud是一个集成了众多开源的框架，利用Spring Boot的开发便利性实现了服务治理、服务注册与发现、负载均衡、数据监控，REST API发布方式等，基本囊括了分布式框架所需要的所有功能。是一套易开放、易部署、易维护的分布式开发工具包
 - [springcloud身世与作用](https://blog.csdn.net/zach_king/article/details/80137282)
-- [spring cloud 请求服务失败, 重试配置](https://blog.csdn.net/ACMer_AK/article/details/78865914)
-- [Feign的超时与重试设置（SpringCloud2.0）](https://blog.csdn.net/VitaminZH/article/details/80892395)
-- [Spring Cloud整合Thrift RPC(一) - 使用指南](https://juejin.im/post/5b2a6a316fb9a00e6a620d4f)
+- [浅谈Spring cloud与Dubbo各自的优势与劣势](https://blog.csdn.net/chendeyou5/article/details/79449423)
+
+
 ### Spring Cloud系列教程
 - [Spring Cloud（零）：微服务的那些事儿](https://windmt.com/2018/04/14/spring-cloud-0-microservices/)
 - [Spring Cloud（一）：服务治理技术概览【Finchley 版】](https://windmt.com/2018/04/14/spring-cloud-1-services-governance/)
@@ -53,11 +54,11 @@
 - []()
 
 
-### Spring Cloud Sleuth
-它在日志中引入唯一ID，以保证微服务调用之间的一致性，这样你就能跟踪某个请求是如何从一个微服务传递到下一个。
-### SpringCloud 集成 KLE
+### 其他
 - [spring-cloud 分布式日志采集](https://blog.csdn.net/guduyishuai/article/details/79228306)
-
+- [spring cloud 请求服务失败, 重试配置](https://blog.csdn.net/ACMer_AK/article/details/78865914)
+- [Feign的超时与重试设置（SpringCloud2.0）](https://blog.csdn.net/VitaminZH/article/details/80892395)
+- [Spring Cloud整合Thrift RPC(一) - 使用指南](https://juejin.im/post/5b2a6a316fb9a00e6a620d4f)
 
 ## SpringBoot
 - Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。
