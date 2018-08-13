@@ -41,7 +41,15 @@
 - [Spring Cloud（六）：Hystrix 监控数据聚合 Turbine【Finchley 版】](https://windmt.com/2018/04/17/spring-cloud-6-turbine/)
 - [Spring Cloud（七）：配置中心（Git 版与动态刷新）【Finchley 版】](https://windmt.com/2018/04/19/spring-cloud-7-config-sample/)
 - [Spring Cloud（八）：配置中心（服务化与高可用）【Finchley 版】](https://windmt.com/2018/04/19/spring-cloud-8-config-with-eureka/)
-- []()
+- [Spring Cloud（九）：配置中心（消息总线）【Finchley 版】](https://windmt.com/2018/04/19/spring-cloud-9-config-eureka-bus/)
+- [Spring Cloud（十）：服务网关 Zuul（路由）【Finchley 版】](https://windmt.com/2018/04/23/spring-cloud-10-zuul-router/)
+- [Spring Cloud（十一）：服务网关 Zuul（过滤器）【Finchley 版】](https://windmt.com/2018/04/23/spring-cloud-11-zuul-filter/)
+- [Spring Cloud（十二）：分布式链路跟踪 Sleuth 与 Zipkin【Finchley 版】](https://windmt.com/2018/04/24/spring-cloud-12-sleuth-zipkin/)
+- [Spring Cloud 与响应式微服务](https://windmt.com/2018/04/26/spring-cloud-full-reactive-microservices/)
+- [Spring Cloud（十三）：Spring Cloud Gateway（路由）](https://windmt.com/2018/05/07/spring-cloud-13-spring-cloud-gateway-router/)
+- [Spring Cloud（十四）：Spring Cloud Gateway（过滤器）](https://windmt.com/2018/05/08/spring-cloud-14-spring-cloud-gateway-filter/)
+- [Spring Cloud（十五）：Spring Cloud Gateway（限流）](https://windmt.com/2018/05/09/spring-cloud-15-spring-cloud-gateway-ratelimiter/)
+- [Spring Cloud（十五）：Spring Cloud Gateway（续）](https://windmt.com/2018/05/11/spring-cloud-16-spring-cloud-gateway-others/)
 - []()
 
 
