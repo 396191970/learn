@@ -8,7 +8,7 @@ import javax.jms.*;
 import java.util.Scanner;
 
 /**
- * 发送异步消息，并创建临时队列接受异步返回
+ * 发送异步消息，并创建临时队列接收异步返回
  *
  * @author Shaofeng Li
  */
