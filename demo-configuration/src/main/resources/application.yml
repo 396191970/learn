@@ -1,0 +1,6 @@
+
+jlpay:
+  notify:
+    risk: risk-url
+    trans: trans-url
+  node: node-url
