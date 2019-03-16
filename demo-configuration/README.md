@@ -1,7 +1,38 @@
 #功能
-发送异步消息，并创建临时队列接收异步返回
+学习注解@ConfigurationProperties(prefix = "jlpay")
+## 配置类
+```$xslt
+@Configuration
+@Component
+@ConfigurationProperties(prefix = "jlpay")
+@Data
+public class TestConf {
+    private  Notify notify = new Notify();
+    private  String node;
 
-* ![](1.png)
+    public static TestConf TestConfStatic ;
+    {
+        TestConfStatic =this;
+    }
+    @Data
+    public   class   Notify {
+        String risk;
+        String  trans;
+    }
 
+
+}
+
+```
+## 配置文件
+```$xslt
+
+
+jlpay:
+  notify:
+    risk: risk-url
+    trans: trans-url
+  node: node-url
+
+```
 #测试
-http://127.0.0.1:43343/swagger-ui.html#/
