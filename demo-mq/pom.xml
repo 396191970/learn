@@ -5,8 +5,8 @@
     <groupId>com.jlpay.common</groupId>
     <artifactId>demo-mq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>test-mq</name>
-    <description>test-mq</description>
+    <name>demo-mq</name>
+    <description>demo-mq</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

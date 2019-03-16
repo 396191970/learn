@@ -1,6 +1,7 @@
 package com.jlpay.common.testmq.controller;
 
 import com.jlpay.common.testmq.services.ProducerAsyn;
+import com.jlpay.common.testmq.services.StopJmsListener;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.Data;
@@ -19,6 +20,8 @@ public class ProducerAsynController {
 
     @Autowired
     ProducerAsyn producerAsyn;
+    @Autowired
+    StopJmsListener stopJmsListener;
 
     @RequestMapping("ProducerAsyn")
     public String ProducerAsyn() throws JMSException {
@@ -28,5 +31,15 @@ public class ProducerAsynController {
         System.out.print("消息发送完毕！");
 
         return "成功";
+    }
+
+    @RequestMapping("stop")
+    public String stop() throws JMSException {
+
+        stopJmsListener.stop();
+
+        System.out.print("stop");
+
+        return "stop";
     }
 }

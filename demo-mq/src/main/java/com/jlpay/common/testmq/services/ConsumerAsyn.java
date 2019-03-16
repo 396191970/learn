@@ -23,7 +23,7 @@ public class ConsumerAsyn {
         try {
             String textMessage = ((TextMessage) message).getText();
             System.out.println("接收消息 : " + textMessage + "  JMSMessage" + message.getJMSMessageID());
-            Thread.sleep(10 * 1000);//模拟业务处理
+            Thread.sleep(3 * 1000);//模拟业务处理
             Queue responseQueue = (Queue) message.getJMSReplyTo();
             if (responseQueue != null) {
                 Session session = connectionFactory.createConnection().createSession(false, Session.AUTO_ACKNOWLEDGE);
