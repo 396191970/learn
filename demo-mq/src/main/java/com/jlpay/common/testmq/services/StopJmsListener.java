@@ -21,7 +21,7 @@ public class StopJmsListener {
     JmsListenerEndpointRegistry jmsListenerEndpointRegistry;
 
     /**
-     * 关闭JMS监听，不在接受消息
+     * 关闭JMS监听，不再接受消息
      */
     public void stop()
     {
