@@ -1,0 +1,18 @@
+server:
+  port: 50000
+
+spring:
+  application:
+    name: test-mq
+
+  jms:
+    listener:
+      acknowledge-mode: auto
+  redis:
+    cluster:
+      nodes: 172.20.6.21:8000,172.20.6.21:8001,172.20.6.22:8002,172.20.6.22:8003,172.20.6.23:8004,172.20.6.23:8005
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
