@@ -1,4 +1,4 @@
-#功能
+# 功能
 学习注解@ConfigurationProperties(prefix = "jlpay")
 ## 配置类
 ```$xslt
