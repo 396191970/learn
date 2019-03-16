@@ -1,0 +1,20 @@
+server:
+  port: 50000
+
+spring:
+  application:
+    name: test-mq
+  activemq:
+    broker-url: tcp://172.20.2.132:61616
+    pool:
+      enabled: true
+      max-connections: 100
+  jms:
+    listener:
+      acknowledge-mode: auto
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
