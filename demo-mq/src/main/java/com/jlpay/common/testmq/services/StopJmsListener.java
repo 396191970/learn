@@ -20,6 +20,9 @@ public class StopJmsListener {
     @Autowired
     JmsListenerEndpointRegistry jmsListenerEndpointRegistry;
 
+    /**
+     * 关闭JMS监听，不在接受消息
+     */
     public void stop()
     {
         Collection<MessageListenerContainer> listenerContainers = jmsListenerEndpointRegistry.getListenerContainers();
