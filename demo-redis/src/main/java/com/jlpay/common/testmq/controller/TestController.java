@@ -23,7 +23,9 @@ public class TestController {
     public String set()  {
 
         redisTemplate.opsForValue().set("key","value",2, TimeUnit.SECONDS);
-        System.out.print("成功");
+        redisTemplate.opsForValue().set("123412","value",2, TimeUnit.SECONDS);
+        redisTemplate.opsForValue().set("asdff","value",2, TimeUnit.SECONDS);
+        System.out.println("成功");
 
         return "成功";
     }
@@ -31,7 +33,7 @@ public class TestController {
     public String get()  {
 
 
-        System.out.print(redisTemplate.opsForValue().get("key")+"成功");
+        System.out.println(redisTemplate.opsForValue().get("key")+"成功");
 
         return "成功";
     }

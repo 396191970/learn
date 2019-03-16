@@ -1,8 +1,11 @@
 package com.jlpay.common.testmq.listener;
 
+import com.alibaba.fastjson.JSON;
 import org.springframework.data.redis.connection.Message;
 import org.springframework.data.redis.connection.MessageListener;
 import org.springframework.stereotype.Component;
+
+import java.nio.charset.Charset;
 
 /**
  * @author Shaofeng Li
@@ -12,6 +15,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class RedisExpiredListener implements MessageListener {
+
+    private String bodyStr;
 
     /**
      * 客户端监听订阅的topic，当有消息的时候，会触发该方法;
@@ -31,10 +36,26 @@ public class RedisExpiredListener implements MessageListener {
      */
     @Override
     public void onMessage(Message message, byte[] bytes) {
-        byte[] body = message.getBody();// 建议使用: valueSerializer
+        byte[] body = message.getBody();
         byte[] channel = message.getChannel();
-        System.out.print("onMessage >> " );
-        System.out.println(String.format("channel: %s, body: %s, bytes: %s"
-                ,new String(channel), new String(body), new String(bytes)));
+        String  bodyStr = new String(body, Charset.defaultCharset());
+
+        /**
+         *
+         * body >> "��\u0000\u0005t\u0000\u0005asdff"
+         * channel >> "__keyevent@0__:expired"
+         */
+        System.out.println("body >> " + bodyStr);
+        System.out.println("channel >> " +JSON.toJSONString(new String(channel, Charset.forName("UTF-8"))));
+
+
+        if(bodyStr.endsWith("key"))
+        {
+            System.out.println("找到key 销毁 处理");
+
+        }
+
+
+
     }
 }

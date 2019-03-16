@@ -28,7 +28,7 @@ public class ProducerAsynController {
 
         producerAsyn.sendMessage("输入信息：");
 
-        System.out.print("消息发送完毕！");
+        System.out.println("消息发送完毕！");
 
         return "成功";
     }
@@ -38,7 +38,7 @@ public class ProducerAsynController {
 
         stopJmsListener.stop();
 
-        System.out.print("stop");
+        System.out.println("stop");
 
         return "stop";
     }

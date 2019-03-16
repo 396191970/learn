@@ -81,9 +81,9 @@ public class ProducerAsyn implements MessageListener {
     public static void main(String[] args) throws JMSException {
         ProducerAsyn ms = new ProducerAsyn();
         Scanner scan = new Scanner(System.in);
-        System.out.print("输入信息：");
+        System.out.println("输入信息：");
         ms.sendMessage(scan.next());
-        System.out.print("消息发送完毕！");
+        System.out.println("消息发送完毕！");
     }
 
 }
