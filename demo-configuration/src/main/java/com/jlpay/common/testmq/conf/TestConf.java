@@ -14,7 +14,6 @@ import org.springframework.stereotype.Component;
  * @Version 1.0
  */
 @Configuration
-@Component
 @ConfigurationProperties(prefix = "jlpay")
 @Data
 public class TestConf {
