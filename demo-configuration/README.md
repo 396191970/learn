@@ -36,3 +36,28 @@ jlpay:
 
 ```
 
+# 测试
+运行测试类
+```$xslt
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = {NotifyServiceApplication.class})
+
+public class TestConfTest {
+
+    @Autowired
+    public TestConf testConf;
+
+    @Test
+    public void test() {
+        System.out.println(testConf.TestConfStatic.toString());
+
+        System.out.println(testConf.toString());
+    }
+}
+```
+会看到控制台输出
+```$xslt
+TestConf(notify=TestConf.Notify(risk=risk-url, trans=trans-url), node=node-url)
+TestConf(notify=TestConf.Notify(risk=risk-url, trans=trans-url), node=node-url)
+```
