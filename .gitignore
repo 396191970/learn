@@ -1,0 +1,13 @@
+*/logs/
+*/.settings/
+*/target/
+*/src/main/assembly/conf/
+*/.classpath
+*/.gitignore
+*/.project
+*.log
+*.iml
+*.jar
+*/.ide/
+*.idea
+*.mvn
