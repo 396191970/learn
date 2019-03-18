@@ -1,7 +1,7 @@
 # Sentinel 控制台
 
 ## 修改
-这个是clone至阿里的源码，这里添加了修改配置推送到zookeeper功能
+这个是clone from 阿里的源码，这里添加了修改配置推送到zookeeper功能
 
 ## 0. 概述
 
