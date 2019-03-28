@@ -1,0 +1,17 @@
+debug: true
+
+server:
+    port: 8003
+
+thrift:
+    maxDataSize: 300000
+    register:
+        node: /auth/auth_server
+        port: 45747
+thrirf:
+    thread:
+        size: 3
+zk:
+    register: 172.20.20.13:2180
+    register.connectionTimeout: 3000
+    register.sessionTimeout: 50000
